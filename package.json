@@ -1,0 +1,22 @@
+{
+  "name": "trello-app-example",
+  "version": "1.0.0",
+  "description": "Trello Example App - REST API with Node.js Express and PostgreSQL DB",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "set NODE_PATH=.; && nodemon ./bin/www"
+  },
+  "author": "Katherine Shevchenko",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "pg": "^7.9.0"
+  }
+}
